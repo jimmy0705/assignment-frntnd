@@ -1,16 +1,24 @@
 import React from 'react';
-import FloorplanArea from './components/FloorplanArea/Index';
+
 import Header from './components/Header';
-import MaininputArea from './components/MainInputArea/Index';
-import logo from './logo.svg';
+import Main from './components/Main';
+import {Route,Redirect} from 'react-router-dom'
+
+import MyHome from './components/Myhome/Myhome';
 //import './App.css';
 
 function App() {
   return (
     <div className="App">
      <Header/>
-     <MaininputArea/>
-     <FloorplanArea/>
+     <Route path="/" exact>
+      <Main/>
+     </Route>
+     
+     <Route path="/myhome" >
+         <MyHome/>
+        </Route>
+
     </div>
   );
 }

@@ -1,11 +1,18 @@
 import React from 'react';
-
+import { Button,Navbar,Form,Col,Row } from 'react-bootstrap';
 //import './App.css';
 
 function FloorPlanInput() {
   return (
     <div className="floor-plan-area ">
-     <h1>floor plan input</h1>
+
+  
+  
+    <Button variant="outline-secondary">Upload Floorplan</Button>
+   
+    <Button variant="outline-secondary">Create a Room using Dimensions</Button>
+
+
     </div>
   );
 }

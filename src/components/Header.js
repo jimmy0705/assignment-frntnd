@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 
 
 import { Button,Navbar,Form,InputGroup,FormControl,Nav,NavDropdown,Container } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './common.css'
 
 
