@@ -1,0 +1,32 @@
+
+
+
+.myhome-notfication {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+   
+    align-items: center;
+
+    width: 290px;
+   
+    background: #FCF7ED;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+   
+    color: #E6AB4A;
+    padding: 12px 12px;
+ 
+}
+
+.myhome3d-area {
+    text-align: center;
+}
+
+
+.myhome-page-area.container {
+    margin-top: 3em;
+}

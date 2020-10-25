@@ -4,8 +4,9 @@ import Header from './components/Header';
 import Main from './components/Main';
 import {Route,Redirect} from 'react-router-dom'
 
-import MyHome from './components/Myhome/Myhome';
-//import './App.css';
+
+import './App.css';
+import MyHomePage from './components/Myhome/Index';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
      </Route>
      
      <Route path="/myhome" >
-         <MyHome/>
+     <MyHomePage/>
         </Route>
+      
 
     </div>
   );

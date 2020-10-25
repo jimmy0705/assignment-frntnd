@@ -47,7 +47,47 @@ const AllplanData = [
       id: 8,
       title:"DLF Woodland Heights",
       type:"3BHK - 1221 Sqft"
-  }
+  },
+  {
+     id: 9,
+     title:"DLF Woodland Heights",
+     type:"3BHK - 1221 Sqft"
+ },
+ {
+    id: 10,
+    title:"DLF Woodland Heights",
+    type:"3BHK - 1221 Sqft"
+},
+{
+   id: 11,
+   title:"DLF Woodland Heights",
+   type:"3BHK - 1221 Sqft"
+},
+{
+   id: 12,
+   title:"DLF Woodland Heights",
+   type:"3BHK - 1221 Sqft"
+},
+{
+   id: 13,
+   title:"DLF Woodland Heights",
+   type:"3BHK - 1221 Sqft"
+},
+{
+   id: 14,
+   title:"DLF Woodland Heights",
+   type:"3BHK - 1221 Sqft"
+},
+{
+   id: 15,
+   title:"DLF Woodland Heights",
+   type:"3BHK - 1221 Sqft"
+},
+{
+   id: 16,
+   title:"DLF Woodland Heights",
+   type:"3BHK - 1221 Sqft"
+}
 ]
 
 
@@ -57,10 +97,10 @@ function FloorplanArea() {
     <div className="floorplan-area container">
       <h5 className="floorplan-title">Found 4 Floorplans</h5>
      <div>
-     <Button variant="outline-secondary"> BHK</Button>
-     <Button variant="outline-secondary"> City</Button>
-     <Button variant="outline-secondary"> Builder</Button>
-     <Button variant="outline-secondary">Property Type</Button>
+     <Button className="filter-button" variant="outline-secondary"> BHK</Button>
+     <Button className="filter-button" variant="outline-secondary"> City</Button>
+     <Button className="filter-button" variant="outline-secondary"> Builder</Button>
+     <Button className="filter-button" variant="outline-secondary">Property Type</Button>
      </div>
     <div className="floor-palan-list-area">
     {  AllplanData.map(plan => <FloorplanList PlanData={plan} key = {plan.id} />)}

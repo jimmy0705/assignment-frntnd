@@ -5,3 +5,18 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
+
+
+.filter-button {
+    margin-right: 15px;
+}
+
+.upload-button {
+    margin-right: 1em;
+}
+
+.plan-img{
+    width: 95%;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}

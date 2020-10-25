@@ -3,7 +3,7 @@ import { Row,Col } from 'react-bootstrap';
 import FloorPlanInput from './FloorPlanInput';
 import Searchinput from './SearchInput';
 
-//import './App.css';
+import './maininput.css';
 
 function MaininputArea() {
   return (

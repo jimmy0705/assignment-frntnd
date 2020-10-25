@@ -13,12 +13,12 @@ function Header() {
 
   return (
     <div className="header-area ">
-      <Navbar expand="lg" variant="light" bg="light">
+      <Navbar expand="lg" >
   <Container>
-    <Navbar.Brand href="#">Navbar</Navbar.Brand>
+    <Navbar.Brand href="#"><img className="fluid" src={require('./logo1.svg')}/></Navbar.Brand>
 
     <nav className="mr-auto">
-    <Nav.Link href="#">Browse Room Designs</Nav.Link>
+    <Nav.Link style={{color:"black"}} href="#">Browse Room Designs</Nav.Link>
     </nav>
 
     <div>
@@ -29,8 +29,6 @@ function Header() {
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
        
       <Nav.Link href="#home">My Home</Nav.Link>
