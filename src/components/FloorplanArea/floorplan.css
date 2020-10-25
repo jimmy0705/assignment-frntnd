@@ -20,3 +20,13 @@
     margin-top: 1.5em;
     margin-bottom: 1em;
 }
+
+a.danger {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: black;
+    text-decoration: none !important;
+}

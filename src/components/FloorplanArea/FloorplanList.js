@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
 
@@ -13,7 +14,7 @@ function FloorplanList(props) {
      <img className="fluid plan-img" src={require('./plan.png')}/>
   <h5 className="plan-title">{PlanData.title}</h5>
   <h5 className="floorplan-title">{PlanData.type}</h5>
-     <Button variant="danger">Select this Floorplan</Button>
+     <Link to='/myhome' className="danger">Select this Floorplan</Link>
     </div>
   );
 }

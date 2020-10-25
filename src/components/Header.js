@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-
+import {Link} from 'react-router-dom';
 import { Button,Navbar,Form,InputGroup,FormControl,Nav,NavDropdown,Container } from 'react-bootstrap';
 
 import './common.css'
@@ -15,10 +15,10 @@ function Header() {
     <div className="header-area ">
       <Navbar expand="lg" >
   <Container>
-    <Navbar.Brand href="#"><img className="fluid" src={require('./logo1.svg')}/></Navbar.Brand>
+    <Navbar.Brand href="/"><img className="fluid" src={require('./logo1.svg')}/></Navbar.Brand>
 
     <nav className="mr-auto">
-    <Nav.Link style={{color:"black"}} href="#">Browse Room Designs</Nav.Link>
+    <Link style={{color:"black"}} to="/myhome">Browse Room Designs</Link>
     </nav>
 
     <div>
